@@ -8,7 +8,7 @@
 </head>
 <body>
 	<header>
-		<img src="imagenes/logo1.png">
+		<img src="imagenes/logo.jpg">
 	</header>
 	<nav>
 		<div id='menu'>
