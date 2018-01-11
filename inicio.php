@@ -8,10 +8,19 @@
 </head>
 <body>
 	<header>
-		<img src="">
+		<img src="imagenes/logo1.png">
 	</header>
 	<nav>
-		<form>Usuario: <input type="text" name="nombre">Password: <input type="password" name="password"><input type="submit" value="Entrar"></form>
+		<div id='menu'>
+			<ul>
+				<li><a href=''>Ajuntament</a></li>
+				<li><a href=''>El municipi</a></li>
+				<li><a href=''>Serveis</a></li>
+			</ul>
+		</div>
+		<div id='login'>
+			<form>Usuario: <input type="text" name="nombre"> Password: <input type="password" name="password"><input type="submit" value="Entrar"></form>
+		</div>
 	</nav>
 	<article>
 		<p></p>
