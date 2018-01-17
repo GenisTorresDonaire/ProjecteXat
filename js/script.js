@@ -44,3 +44,7 @@ function logear(){
 }
 */
 
+function registrarse(){
+	location.href="../registro.php";
+}
+
