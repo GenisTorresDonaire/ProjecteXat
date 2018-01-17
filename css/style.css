@@ -12,6 +12,11 @@ nav{
 	padding-right: 5px;
 }
 
+#usu {
+	line-height: 40px;
+
+}
+
 #login  form{
 	line-height: 40px;
 	float: right;
