@@ -35,7 +35,7 @@
 		<title>Projecte Xat</title>
 		<meta charset="utf-8" />
 		<link rel="stylesheet" type="text/css" href="css/style.css">
-		 <script src="js/script.js"></script> 
+		<script src="js/script.js"></script> 
 	</head>
 	<body>
 		<header>
@@ -51,7 +51,6 @@
 			</div>
 			<div id='login'>
 				<p><a>Registrarse</a> / <a onClick="entrar()">Entrar</a></p>
-				<!-- <form>Usuario: <input type="text" name="nombre"> Password: <input type="password" name="password"><input type="submit" value="Entrar"></form> -->
 			</div>
 		</nav>
 		<article>
