@@ -19,6 +19,7 @@ nav{
 }
 
 
+
 #login  form{
 	line-height: 50px;
 	float: right;
@@ -85,6 +86,7 @@ article{
 	text-align: center;
 	background: white;
 	min-height: 450px;
+
 }
 
 footer{
@@ -95,4 +97,20 @@ footer{
 	color: white;
 	min-height: 50px;
 	line-height: 50px;
+}
+
+#registro{
+	position: absolute;
+	margin-top: 50px;
+	border-color: #722f37;
+	border-style: solid;
+	height: 300px;
+	width: 250px;
+	margin-left: 400px;
+
+}
+
+#h3{
+	background:#722f37 ;
+	color: white;
 }

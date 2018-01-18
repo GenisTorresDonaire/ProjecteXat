@@ -9,15 +9,15 @@ function entrar(){
 
 	var labelUsuario = document.createElement('label');
 	var inputUsuario = document.createElement('input');
-	inputUsuario.setAttribute('name', 'nombreUsuario');
+	inputUsuario.setAttribute('name', 'nombre');
 	inputUsuario.setAttribute('type', 'text');
 	inputUsuario.setAttribute('value', '');
 
 	var labelPassword = document.createElement('label');
 	var inputPassword = document.createElement('input');
-	inputUsuario.setAttribute('name', 'passwordUsuario');
-	inputUsuario.setAttribute('type', 'passwrod');
-	inputUsuario.setAttribute('value', '');
+	inputPassword.setAttribute('name', 'password');
+	inputPassword.setAttribute('type', 'password');
+	inputPassword.setAttribute('value', '');
 
 	var contenidoLabelUsuario = document.createTextNode('Usuario: ');
 	var contenidoLabelPassword = document.createTextNode('Password: ');
@@ -45,6 +45,6 @@ function logear(){
 */
 
 function registrarse(){
-	location.href="../registro.php";
+	location.href="registro.php";
 }
 

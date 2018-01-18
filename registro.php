@@ -31,67 +31,73 @@
 	}
 
 ?>
+
+
+
+
 <!DOCTYPE html>
 <html>
-<head>
 
-	<title></title>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<style>
-		body{
-			text-align: center;
-		}
-		header{
-			text-align: center;
-		}
-		div{
-			margin: 0 auto;
-			border-style: solid;
-			width: 300px;
-			margin-bottom: 150px;
-			text-align: center;
-		}
-		h1, footer{
-			background-color: black;
-			color: white;
-		}
-		
-	</style>
-</head>
-<body>
-	<div id="img"><img src="imagenes/log.png"></div>
-	<div>
-		
-		<h2>Registrarse</h2>
-		<form action="registro.php" method="POST">
-		<p>
-		<label for="user_login">Email: <br />
-		<input type="email" name="email" class="input" value="" size="20"/></label>
-		</p>
-		<p>
-		<label for="user_login">Telefono: <br />
-		<input type="tel" name="email" class="input" value="" size="20"/></label>
-		</p>
-		<p>
-		<label for="user_login">Ciudad: <br />
-		<input type="text" name="email" class="input" value="" size="20"/></label>
-		</p>
-		<p>
-		<label for="user_login">Nom Usuari: <br />
-		<input type="text" name="usuario" class="input" value="" size="20"/></label>
-		</p>
-		<p>
-		<label for="user_login">Contrasenya: <br />
-		<input type="password" name="pass" class="input" value="" size="20"/></label>
-		</p>
-		<p>
-		<label for="user_login">Repite la Contrasenya: <br />
-		<input type="password" name="pass1" class="input" value="" size="20"/></label>
-		</p>
-		<p class="submit">
-		<input type="submit" name="login" class="button" value="Registrarse"/></label>
-		</form>
-	</div>
+	<head>
+		<title>Projecte Xat</title>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script src="js/script.js"></script> 
+	</head>
+	<body>
+		<header>
+			<img src="imagenes/logo.jpg">
+		</header>
+		<nav>
+			<div id='menu'>
+				<ul>
+					<li><a href=''>Ajuntament</a></li>
+					<li><a href=''>El municipi</a></li>
+					<li><a href=''>Serveis</a></li>
+				</ul>
+			</div>
+			<div id='login'>
+				<p><a onClick="registrarse()">Registrarse</a> / <a>Entrar</a></p>
+			</div>
+		</nav>
+		<article >
+				<div id="registro">
+					
+					<form  id="formRegistro" action="registro.php" method="POST">
+					<h3 id="h3" >Registrarse</h3>
+					<p>
+					<label id="label" for="user_login">Email: <br />
+					<input id="input" type="email" name="email" class="input" value="" size="20"/></label>
+					</p>
+					<p>
+					<label id="label" for="user_login">Telefono: <br />
+					<input id="input"  type="tel" name="email" class="input" value="" size="20"/></label>
+					</p>
+					<p>
+					<label id="label" for="user_login">Ciudad: <br />
+					<input id="input" type="text" name="email" class="input" value="" size="20"/></label>
+					</p>
+					<p>
+					<label id="label" for="user_login">Nom Usuari: <br />
+					<input id="input" type="text" name="usuario" class="input" value="" size="20"/></label>
+					</p>
+					<p>
+					<label id="label" for="user_login">Contrasenya: <br />
+					<input id="input" type="password" name="pass" class="input" value="" size="20"/></label>
+					</p>
+					<p>
+					<label id="label" for="user_login">Repite la Contrasenya: <br />
+					<input id="input" type="password" name="pass1" class="input" value="" size="20"/></label>
+					</p>
+					<p class="submit">
+					<input id="input" type="submit" name="login" class="button" value="Registrarse"/></label>
+					</form>
+				</div>
 
-</body>
+		</article>
+		<footer>
+			<p>Copiright 2018 - Projecte Xat</p>
+		</footer>
+	</body>
+
 </html>

@@ -50,7 +50,7 @@
 				</ul>
 			</div>
 			<div id='login'>
-				<p><a>Registrarse</a> / <a onClick="entrar()">Entrar</a></p>
+				<p><a onClick="registrarse()">Registrarse</a> / <a onClick="entrar()">Entrar</a></p>
 			</div>
 		</nav>
 		<article>
