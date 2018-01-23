@@ -1,6 +1,5 @@
 <?php
 	session_start();
-	include 'connection.php';
 
 	if(isset($_SESSION["session_username"])){
 	// echo "Session is set"; 
@@ -11,18 +10,10 @@
 			$username=$_POST['nombre'];												//Asigna a las variables el post 
 			$password=$_POST['password']; 
 
-			 
-			
-			
-
 			if($username == "Anonimo" && $password == "Anonimo"){
 				echo "lol";	
 				$_SESSION['session_username']=$username;
 				header("Location: login.php");
-			 	
-
-		 	
-
 		}
 	}
 

@@ -17,14 +17,8 @@ nav{
 	padding-right: 100px;
 }
 
-<<<<<<< HEAD
 /*------------------------------ FORM LOGIN ------------------------*/
 #login form{
-=======
-
-
-#login  form{
->>>>>>> 977f9451d1dc1f40741a2e1d9d916c6fa8a13000
 	line-height: 50px;
 	float: right;
 }
@@ -49,26 +43,6 @@ nav #login {
 	margin-right: 5px;
 }
 /*----------------------------------------------------------------*/
-
-
-/*
-#menu li{
-    display: inline-block;
-    line-height: 50px;
-}
-
-#menu a{
-    text-decoration: none;
-    color: white;
-    font-size:18px;
-}
-
-nav #menu {
-	float: left;
-	line-height: 50px;
-}
-*/
-
 
 
 /*-----------------------------------------------------------*/
