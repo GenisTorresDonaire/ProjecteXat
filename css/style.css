@@ -10,14 +10,14 @@ body{
 }
 
 nav{
-	margin-left: 100px;
-	margin-right: 100px;
+	padding-left: 200px;
 	height: 50px;
 	background: #722f37;
 	color: white;
-	padding-right: 5px;
+	padding-right: 100px;
 }
 
+/*------------------------------ FORM LOGIN ------------------------*/
 #login form{
 	line-height: 50px;
 	float: right;
@@ -27,68 +27,115 @@ nav{
 	text-decoration:none; 
 	color: white;
 	line-height: 50px;
-	
 }
  
 #login p{
 	margin-right: 10px;
 }
 
-#menu  li{
+nav #login {
+	float: right;
+}
+
+#login form input{
+	width: 80px;
+	border-radius: 0;
+	margin-right: 5px;
+}
+/*----------------------------------------------------------------*/
+
+
+/*
+#menu li{
     display: inline-block;
     line-height: 50px;
-    border-right: 1px solid white;
 }
 
 #menu a{
     text-decoration: none;
-    margin-left: 10px;
-    margin-right: 10px;
     color: white;
     font-size:18px;
-}
-
-nav #login {
-	float: right;
 }
 
 nav #menu {
 	float: left;
 	line-height: 50px;
 }
+*/
 
-form input{
-	width: 80px;
-	border-radius: 0;
-	margin-right: 5px;
+
+
+/*-----------------------------------------------------------*/
+#menu ul li {
+    background: #722f37;
 }
 
+#menu ul {
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+
+#menu ul a {
+    display:block;
+    background: #722f37;
+	color: white;
+    text-decoration:none;
+    padding-right:10px;
+  	height: 50px;
+  	line-height: 50px;
+}
+
+#menu ul li {
+    position:relative;
+    float:left;
+    margin:0;
+    padding-left: 10px;
+}
+
+#menu ul ul {
+    display:none;
+    position:absolute;
+    top:100%;
+    left:0;
+    padding:0;
+}
+
+#menu ul ul li {
+    float:none;
+    width:200px;
+}
+
+#menu ul li:hover > ul {
+    display:block;
+}
+
+
+
+/*-----------------------------------------------------------*/
+
+
 header{
-	margin-left: 100px;
-	margin-right: 100px;
 	text-align: center;
-	/*width: 100%;*/
+	width: 100%;
 	height: 150px;
 	background: #ab2a3e;
 }
 
 header img{
 	float: left;
-	height: 150px;
-	width: 150px;
+	padding-left: 60px;
+	padding-top: 10px;
+	height: 180px;
 }
 
 article{
-	margin-left: 100px;
-	margin-right: 100px;
 	text-align: center;
 	background: white;
 	min-height: 450px;
 }
 
 footer{
-	margin-left: 100px;
-	margin-right: 100px;
 	text-align: center;
 	background: #722f37;
 	color: white;

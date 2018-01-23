@@ -8,12 +8,21 @@
 	</head>
 	<body>
 		<header>
-			<img src="imagenes/logo.jpg">
+			<img src="imagenes/LogoCornella.png">
 		</header>
 		<nav>
 			<div id='menu'>
 				<ul>
-					<li><a href=''>Ajuntament</a></li>
+					<li><a href=''>Ajuntament</a>
+						<ul>
+							<li><a href="">L'alcalde</a></li>
+							<li><a href="">Consistori</a></li>
+							<li><a href="">Organització Municipal</a></li>
+							<li><a href="">Empreses Municipal</a></li>
+							<li><a href="">Pressupostos</a></li>
+							<li><a href="">Imatge Corporativa</a></li>
+						</ul>
+					</li>
 					<li><a href=''>El municipi</a></li>
 					<li><a href=''>Serveis</a></li>
 				</ul>
