@@ -2,10 +2,8 @@
 	session_start();
 
 	if(isset($_SESSION["session_username"])){
-	// echo "Session is set"; 
-	header("Location: inicio.php");
-	}
-	 
+		header("Location: login.php");
+		}
 		if(!empty($_POST['nombre']) && !empty($_POST['password']) ) {
 			$username=$_POST['nombre'];												//Asigna a las variables el post 
 			$password=$_POST['password']; 
@@ -14,9 +12,8 @@
 				echo "lol";	
 				$_SESSION['session_username']=$username;
 				header("Location: login.php");
+			}
 		}
-	}
-
 ?>
 
 <!DOCTYPE html>

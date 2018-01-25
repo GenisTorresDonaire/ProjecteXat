@@ -13,23 +13,30 @@
 </head>
 <body>
 	<header>
-		<img src="imagenes/logo1.png">
+		<img src="imagenes/LogoCornella.png">
 	</header>
 	<nav>
 		<div id='menu'>
 			<ul>
-				<li><a href=''>Ajuntament</a></li>
-				<li><a href=''>El municipi</a></li>
+				<li><a href=''>Ajuntament</a>
+					<ul>
+						<li><a href="">L'alcalde</a></li>
+						<li><a href="">Consistori</a></li>
+						<li><a href="">Organització Municipal</a></li>
+						<li><a href="">Empreses Municipal</a></li>
+						<li><a href="">Pressupostos</a></li>
+						<li><a href="">Imatge Corporativa</a></li>
+					</ul>
+				</li>
 				<li><a href=''>Serveis</a></li>
 				<li><a href=''>Debats</a></li>
-				<li><a href=''>Chat Room</a></li>
+				<li><a href='chat.php'>Chat Room</a></li>
 				<li><a href=''>Denuncies</a></li>
 				<li><a href=''>Intercanvis</a></li>
-				<li><a href="logout.php">LOGOUT</a></li>
 			</ul>
 		</div>
 		<div id='login'>
-			<h3>Bienvenido, <span><?php echo $_SESSION['session_username'];?>! </span></h3>
+			<p>Bienvenido, <?php echo $_SESSION['session_username'];?>! <a href="logout.php">Salir</a></p>
 		</div>
 	</nav>
 	<article>

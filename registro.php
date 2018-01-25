@@ -1,6 +1,5 @@
 <?php
 	session_start();
-	include 'connection.php';
 
 	if(isset($_SESSION["session_username"])){
 	// echo "Session is set"; 
