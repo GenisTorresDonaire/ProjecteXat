@@ -41,7 +41,7 @@
         </nav>
 
         <article>
-          <div  style="margin: 0 auto; padding: 10px; width: 300px" >
+          <div  style="margin: 0 auto; padding: 10px; width: 500px" >
              <form>      
             
              
@@ -81,13 +81,8 @@
                   </label>
                 </div>
               </fieldset>
-              <div class="form-check">
-                <label class="form-check-label">
-                  <input type="checkbox" class="form-check-input">
-                  Check me out
-                </label>
-              </div>
-              <button type="submit" class="btn btn-primary">Submit</button>
+              
+              <button type="submit" class="btn btn-primary">Enviar denuncia</button>
         </article>
         </form>
 
