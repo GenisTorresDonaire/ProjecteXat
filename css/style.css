@@ -4,10 +4,6 @@
 	font-family: Arial;
 }
 
-body{
-	background-image: url('../imagenes/fondo2.jpg');
-	background-repeat: no-repeat;
-}
 
 nav{
 	padding-left: 100px;
@@ -55,7 +51,6 @@ nav #login {
     margin:0;
     padding:0;
 }
-
 
 #menu ul a {
     display:block;
@@ -133,7 +128,6 @@ footer{
 	height: 300px;
 	width: 250px;
 	margin-left: 400px;
-
 }
 
 #h3{

@@ -41,7 +41,6 @@
 	</nav>
 	<article>
 		
-
 	</article>
 	<footer>
 		<p>Copiright 2018 - Projecte Xat</p>

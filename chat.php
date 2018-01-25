@@ -9,7 +9,6 @@
 
 <!DOCTYPE html>
 <html>
-
     <head>
         <title>Projecte Xat</title>
         <meta charset="utf-8" />
@@ -43,11 +42,14 @@
                     <li><a href=''>Intercanvis</a></li>
                 </ul>
             </div>
+            <div id='login'>
+                <p>Bienvenido, <?php echo $_SESSION['session_username'];?>! <a href="logout.php">Salir</a></p>
+            </div>
         </nav>
 
         <article>
             <div id="divChat" class="col-sm-3 col-sm-offset-4 frame">
-            <ul id="aqui"></ul>
+                <ul id="aqui"></ul>
                 <div>
                     <div class="msj-rta macro" style="margin:auto">                        
                         <div class="text text-r" style="background:whitesmoke !important">
@@ -56,8 +58,8 @@
                     </div>
                 </div>
             </div>
+            <br>
         </article>
-
         <footer>
             <p>Copiright 2018 - Projecte Xat</p>
         </footer>
